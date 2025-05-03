@@ -25,9 +25,8 @@ public class Main4Test
     public void test01()
     {
         Main4.printShortestEmails("KIKM",5);
-        // TODO 4.2: Oprav test
         assertEquals(
-                "jan.vanek@uhk.cz\r\npetr.bauer@uhk.cz\r\njan.budina@uhk.cz\r\nfilip.maly@uhk.cz\r\nkarel.maly@uhk.cz\r\n",
+                "jan.vanek@uhk.cz\npetr.bauer@uhk.cz\njan.budina@uhk.cz\nfilip.maly@uhk.cz\nkarel.maly@uhk.cz\n",
                 outContent.toString()
         );
     }
