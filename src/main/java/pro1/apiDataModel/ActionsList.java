@@ -8,4 +8,7 @@ public class ActionsList
 {
     @SerializedName("rozvrhovaAkce")
     public List<Action> items;
+
+    @SerializedName("prijimaciObor")
+    public List<Action> prijimaciObor;
 }

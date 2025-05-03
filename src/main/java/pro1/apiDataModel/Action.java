@@ -16,7 +16,10 @@ public class Action
     @SerializedName("ucitIdno")
     public long teacherId;
 
-    public Object getRoom() {
-        return room;
-    }
+    @SerializedName("eprDeadlinePrihlaska")
+    public Deadline eprDeadlinePrihlaska;
+
+
+
+
 }

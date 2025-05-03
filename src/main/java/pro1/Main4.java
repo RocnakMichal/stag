@@ -21,7 +21,6 @@ public class Main4 {
                 .sorted(Comparator.comparing(t->t.email.length()))
                 .limit(count)
                 .forEach(t -> System.out.println(t.email));
-
 // Nebo použít toList a projít ho obyč cyklem
     }
 }
